@@ -7,3 +7,11 @@ https://medium.com/@kadishay/build-a-custom-trained-chat-gpt-in-5-minutes-4104f9
 ## Running on localhost
 
 ![localhost](<localhost.png>)
+
+## Result
+
+Working as expected, first commit of a project using [gradio](https://www.gradio.app/).
+
+## Gradio
+
+Gradio is the fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere!
