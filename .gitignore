@@ -93,3 +93,5 @@ target/
 
 # Models
 .bin
+medium/build-a-chatbot/index.json
+*.pdf
