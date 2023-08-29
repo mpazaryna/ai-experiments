@@ -1,0 +1,6 @@
+llama-index
+pinecone-client
+nltk
+transformers
+python-dotenv==1.0.0
+openai
