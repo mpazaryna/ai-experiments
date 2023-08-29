@@ -5,6 +5,11 @@
 ```sh
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 deactivate
+```
+
+### Install the required dependencies
+
+``` bash
+pip install -r requirements.txt
 ```
