@@ -1,15 +1,19 @@
 import os
 
+import dotenv
 import openai
-from dotenv import load_dotenv
 
 import autogen
 
-# Load environment variables from .env file
-load_dotenv()
+# Get the path to the .env file
+dotenv_path = dotenv.find_dotenv()
+
+# Load the .env file
+dotenv.load_dotenv(dotenv_path)
 
 # Load your API key from an environment variable or secret management service
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 config_list = [{"model": "gpt-4", "api_key": openai.api_key}]
 
