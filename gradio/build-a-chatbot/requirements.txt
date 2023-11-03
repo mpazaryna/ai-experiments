@@ -1,7 +1,0 @@
-openai 
-gpt_index==0.4.24 
-langchain==0.0.118 
-PyPDF2 
-PyCryptodome 
-gradio
-python-dotenv==1.0.0
