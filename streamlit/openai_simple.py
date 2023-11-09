@@ -36,7 +36,6 @@ def communicate():
 
 
 st.title("Assistant AI Bot")
-# st.image("image.jpg")
 st.write("🤖 Hello! Feel free to ask me anything.")
 st.sidebar.markdown("## AUTOMATION ARCHITECH AGENCY")
 st.sidebar.markdown(
