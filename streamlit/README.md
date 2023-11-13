@@ -1,5 +1,11 @@
 # Streamlit examples
 
+You can run a pristine streamlit with the following command.
+
+```sh
+streamlit hello
+```
+
 ## Hello
 
 ```sh
@@ -11,7 +17,6 @@ streamlit run hello.py
 ```sh
 streamlit run openai_simple.py
 ```
-
 
 ## References
 

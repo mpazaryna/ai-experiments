@@ -28,11 +28,3 @@ dotenv.load_dotenv(dotenv_path)
 # Get the value of an environment variable
 value = os.environ['MY_ENV_VAR']
 ```
-
-## Conda
-
-```sh
-conda activate autogen
-conda install <packages>
-conda install -c conda-forge python-pdfkit
-```
