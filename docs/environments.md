@@ -4,8 +4,8 @@
 
 ```sh
 # create and activate a new enviroment
-conda create --name py35 python=3.5 
-conda activate py35
+conda create --name py3.12 python=3.12 
+conda activate py3.12
 ```
 
 ```sh
