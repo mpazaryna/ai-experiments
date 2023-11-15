@@ -95,3 +95,5 @@ target/
 .bin
 medium/build-a-chatbot/index.json
 *.pdf
+
+tmp
