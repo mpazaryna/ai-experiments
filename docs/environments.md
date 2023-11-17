@@ -1,5 +1,13 @@
 # Python Environments
 
+## venv
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+deactivate
+```
+
 ## Conda
 
 ```sh
