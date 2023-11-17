@@ -4,3 +4,4 @@ langchain==0.0.142
 python-dotenv
 wikipedia
 llama-index
+gradio
