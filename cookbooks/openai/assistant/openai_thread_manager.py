@@ -1,13 +1,12 @@
-import os
 import time
 
 from openai import OpenAI
 
 
 class OpenAIThreadManager:
-    def __init__(self, api_key):
+    def __init__(self, api_key, assistant_id):
         self.client = OpenAI(api_key=api_key)
-        self.assistant_id = "asst_7D0vjOW8K7PUmGFYcqblKAG1"
+        self.assistant_id = assistant_id
         self.max_wait_time = 30
 
     def create_thread(self):
@@ -55,21 +54,3 @@ class OpenAIThreadManager:
             elapsed_time += 5
         print("Timeout waiting for response.")
         return None
-
-
-# Main execution
-if __name__ == "__main__":
-    api_key = os.getenv("OPENAI_API_KEY")
-    manager = OpenAIThreadManager(api_key=api_key)
-    thread = manager.create_thread()
-    if thread:
-        print(f"Thread created: {thread.id}")
-        manager.send_message(thread.id, "Solve this problem: 3x + 11 = 14")
-        run = manager.run_thread(thread.id)
-        if run:
-            print(f"Run initiated: {run.id}")
-            completed_run = manager.wait_for_response(thread.id, run.id)
-            if completed_run and completed_run.status == "completed":
-                manager.retrieve_messages(thread.id)
-            else:
-                print("Run did not complete successfully.")
