@@ -7,3 +7,5 @@ llama-index
 gradio
 pydantic==1.8.2
 pydantic[email]
+gspread 
+oauth2client
