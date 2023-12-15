@@ -1,6 +1,6 @@
 streamlit==1.28.2
 openai==0.28
-langchain==0.0.142
+langchain==0.0.162 
 python-dotenv
 wikipedia
 llama-index
@@ -9,3 +9,9 @@ pydantic==1.8.2
 pydantic[email]
 gspread 
 oauth2client
+pinecone-client
+tiktoken 
+pinecone-client[grpc] 
+datasets 
+apache_beam 
+mwparserfromhell
