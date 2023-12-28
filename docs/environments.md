@@ -68,3 +68,8 @@ In Python, a `requirements.txt` file is commonly used to specify and manage the 
    - You can also use version control systems like Git to track changes in your `requirements.txt` file and collaborate with others effectively.
 
 In summary, a `requirements.txt` file is a simple and effective way to manage and document the dependencies of your Python project. It helps ensure that your project is reproducible and can be easily shared with others.
+
+## Monorepo and Requirements.txt
+
+It seems as if in Github codespaces, I've had repeated problems with trying to run good code in the monorepo when I've got the requirements.txt file at the root level.  For an experiment, I removed it and built the .env from the file found in courses/deeplake.
+

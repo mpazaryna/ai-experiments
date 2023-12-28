@@ -31,3 +31,17 @@ pip install -r requirements.txt
 ```sh
 export OPENAI_API_KEY=api_key_from_openai
 ```
+
+## Requirements.txt
+
+```sh
+streamlit==1.28.2
+openai==0.28
+langchain==0.0.162 
+python-dotenv
+wikipedia
+llama-index
+gradio
+pydantic==1.8.2
+pydantic[email]
+```
