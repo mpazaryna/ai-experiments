@@ -1,4 +1,7 @@
 python-dotenv
-langchain
 openai
 wikipedia
+langchain-core 
+langchain-community 
+langchain-openai
+langchain-cli
