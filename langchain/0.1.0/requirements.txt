@@ -1,0 +1,7 @@
+langchain
+langchain-cli
+langsmith
+langchainhub
+langchain-openai 
+python-dotenv
+tavily-python
