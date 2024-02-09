@@ -1,0 +1,4 @@
+pytest
+pydantic
+openai
+langchain
