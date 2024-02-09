@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Chat</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/style.css" rel="stylesheet" />
+        <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/chat.bundle.es.js';
+        
+        createChat({
+            webhookUrl: 'http://localhost:5678/webhook'
+        });
+        </script>
+    </head>
+    <body>
+        <div id="chat"></div>
+    </body>
+</html>
