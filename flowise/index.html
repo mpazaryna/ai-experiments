@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Flowise</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Flowise</h1>
+        </div>
+        <div id="content">
+            <h2>Flowise</h2>
+            <p>Flowise is a simple web application that allows you to create and manage your own flowcharts. It is a project for the course "Web Development" at the University of Applied Sciences in Salzburg.</p>
+            <p>Flowise is developed by <a href="http://www.alexanderhofbauer.com">Alexander Hofbauer</a> and <a href="http://www.alexanderhofbauer.com">Alexander Hofbauer</a>.</p>
+        </div>
+        <flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.initFull({
+        chatflowid: "3060ef38-5dc1-426d-8e93-0bb7ae21ec90",
+        apiHost: "https://flowiseai-2bmd5-u12550.vm.elestio.app",
+    })
+</script>
+</html>
+
+
+
+
+
+
