@@ -1,0 +1,3 @@
+python-dotenv
+duckduckgo-search
+crewai
