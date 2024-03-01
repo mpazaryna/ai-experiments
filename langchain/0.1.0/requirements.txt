@@ -5,3 +5,5 @@ langchainhub
 langchain-openai 
 python-dotenv
 tavily-python
+langchain-fireworks
+fireworks-ai
