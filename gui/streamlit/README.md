@@ -1,23 +1,16 @@
 # Streamlit examples
 
-You can run a pristine streamlit with the following command.
+## Create an environment
 
 ```sh
-streamlit hello
+conda create -n stenv python=3.9
+conda activate stenv
 ```
 
-## Hello
+## Projects
+
+[30 Days](https://30days.streamlit.app)
 
 ```sh
-streamlit run hello.py
+streamlit run thirty-days/day_02.py
 ```
-
-## Simple Open AI Test
-
-```sh
-streamlit run openai_simple.py
-```
-
-## References
-
-- [Examples with utils folder](https://github.com/marcusschiesser/streamlit-examples)
