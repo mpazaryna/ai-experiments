@@ -22,7 +22,7 @@ st.set_page_config(page_title="OpenAI Assistant", page_icon=":robot_face:")
 st.sidebar.header("Configuration")
 api_key = st.sidebar.text_input("Enter your api key", type="password")
 if api_key:
-    openai.api_key = api_key
+    
 
 # Display all file ids
 if st.session_state.file_id_list:

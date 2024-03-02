@@ -13,4 +13,5 @@ conda activate stenv
 
 ```sh
 streamlit run thirty-days/day_02.py
+streamlit run thirty-days/day_05.py
 ```

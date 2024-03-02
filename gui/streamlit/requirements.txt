@@ -1,1 +1,5 @@
 streamlit==1.31.0
+langchain==0.1.10
+langchain-openai
+openai==1.13.3
+python-dotenv
