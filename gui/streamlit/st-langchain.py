@@ -2,9 +2,7 @@ import streamlit as st
 from langchain_openai import OpenAI
 
 # Set the title of the Streamlit app
-st.title("🦜🔗 Quickstart App")
-
-# Prompt for OpenAI API key in the sidebar with password masking
+st.title("Test LangChain OpenAI API")
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
 
