@@ -98,4 +98,4 @@ medium/build-a-chatbot/index.json
 tmp
 
 # streamlit
-.streamlit/secrets.toml
+*.streamlit/secrets.toml
