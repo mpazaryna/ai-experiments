@@ -1,6 +1,5 @@
 import streamlit as st
-
-from llm_chain_setup import initialize_llm_chain
+from llm_chain import initialize_llm_chain
 
 llm_chain = initialize_llm_chain()
 
