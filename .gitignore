@@ -96,3 +96,6 @@ medium/build-a-chatbot/index.json
 *.pdf
 
 tmp
+
+# streamlit
+.streamlit/secrets.toml
